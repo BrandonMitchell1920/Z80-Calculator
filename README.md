@@ -115,6 +115,11 @@ IC                 | U7,U10,U12,U13 | Seven segment, common cathode           | 
 IC                 | U8         | 6264 RAM                                    | 1        | 
 Oscillator         | Y1         | 4 MHz                                       | 1        | Could use a slower one or a faster one if the CPU supports higher speeds
 
+## Building Firmware
+
+I used RASM to assemble this.  Other assemblers would probably work, but the assembler 
+directives may need to change.  Use the command "rasm_w64.exe -ob out.bin main.asm" to assemble.
+
 ## Misc
 
 I wrote up a little post to my [blog](https://branmitc.blogspot.com/2026/09/homebrew-z80-computer.html) about designing and building this computer, if you
