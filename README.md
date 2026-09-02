@@ -51,7 +51,7 @@ I/O addresses are the following:
 * 7SEG 4: 0x03
 * Buttons + Program Select: 0x04
 * DIP Switch X: 0x05
-* DIP Switch 7: 0x06
+* DIP Switch Y: 0x06
 
 The buttons and program select switch are mapped to the following bits of the byte
 that you read back from their I/O address:
